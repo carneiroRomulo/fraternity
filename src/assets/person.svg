@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="164.40469mm"
+   height="164.40469mm"
+   viewBox="0 0 164.40469 164.40469"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="person.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="413.70154"
+     inkscape:cy="318.39196"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.792749,-60.042305)">
+    <rect
+       id="rect3715"
+       width="164.40469"
+       height="164.40469"
+       x="25.792749"
+       y="60.042305"
+       style="fill:#999999;stroke-width:0.5231058" />
+    <g
+       id="g3731"
+       transform="matrix(0.30018006,0,0,0.30018006,3.5111018,16.784218)"
+       style="fill:#e6e6e6">
+      <path
+         id="path3727"
+         class=""
+         style="fill:#e6e6e6"
+         data-original="#000000"
+         d="m 524.03307,597.28359 c -0.921,-58.994 -19.3,-112.636 -51.977,-151.474 -32.487,-38.601 -76.515,-59.859 -123.987,-59.859 -47.472,0 -91.5,21.258 -123.987,59.859 -32.646,38.797 -51.013,92.364 -51.973,151.285 18.46,9.247 94.85,44.856 175.96,44.856 87.708,0 158.845,-35.4 175.964,-44.667 z"
+         inkscape:connector-curvature="0" />
+      <circle
+         id="circle3729"
+         class=""
+         style="fill:#e6e6e6"
+         data-original="#000000"
+         cy="281.95059"
+         cx="348.07108"
+         r="88" />
+    </g>
+  </g>
+</svg>
