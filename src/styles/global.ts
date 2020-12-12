@@ -9,6 +9,6 @@ export default createGlobalStyle`
   body {
     background: #F0F0F7;
     color: #262626;
+    font: 400 16px Poppins, sans-serif;
   }
-
 `
