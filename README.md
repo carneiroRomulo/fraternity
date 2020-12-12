@@ -1,30 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fraternity Template
 
-## Getting Started
+<p align="center">
+  <a href="https://www.linkedin.com/in/r%C3%B4mulo-carneiro-00106414a/" re="nofollow">
+    <img alt="Romulo Carneiro" src="https://img.shields.io/badge/Romulo-141F4F?style=flat&logo=linkedin&labelColor=141F4F" style="max-width:100%;">
+  </a>
+  <a href="https://www.repostatus.org/">
+    <img alt="Project Status: WIP" src="https://img.shields.io/badge/repo status-WIP-141F4F">
+  </a>
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/carneiroRomulo/fraternity?color=141F4F">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-141F4F">
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was created with the aim of learning more about the technologies below and providing a website for the fraternity of which I was part
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-## Learn More
+## Prototype
 
-To learn more about Next.js, take a look at the following resources:
+Click on the link below to see the prototype made as a development guide:
+- [Figma](https://www.figma.com/file/NGWIUsUHGCUSuwmk6kVnpC/Fraternity?node-id=0%3A1)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+Project made using the following technologies:
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+
+This project is under the license [MIT](./LICENSE) .
+
+---
+
+<p align="center">Made with ❤️ by Rômulo Carneiro<p/>
