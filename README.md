@@ -15,7 +15,7 @@
 
 ## Description
 
-This project was created with the aim of learning more about the technologies below and providing a website for the fraternity of which I was part
+This project was created with the aim of learning more about the technologies below and providing a website for the fraternity of which I was part, you can see it by clicking on this [link](https://fraternity.vercel.app/)
 
 ---
 
