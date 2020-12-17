@@ -7,8 +7,8 @@ export default createGlobalStyle`
     box-sizing: border-box
   }
   body {
-    background: #F0F0F7;
-    color: #262626;
+    background: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.dark_text};
     font: 400 16px Poppins, sans-serif;
   }
 `
