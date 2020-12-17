@@ -11,6 +11,10 @@ export const Content = styled.div`
   display: flex;
   padding: 1.4em;
 
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+
   border-width: 0.3em;
   border-color: #ffffff;
   border-style: none none solid none;
@@ -24,18 +28,26 @@ export const Bar = styled.div``
 
 export const TextHeader = styled.a`
   font: 700 1.25em Poppins, sans-serif;
+  margin-left: 70px;
 
   text-decoration: none;
   text-align: center;
 
   color: ${props => props.theme.colors.light_text};
 `
-export const TextHome = styled(TextHeader)`
+export const TextHome = styled.a`
+  font: 700 1.25em Poppins, sans-serif;
+
+  text-decoration: none;
+  text-align: center;
+
   color: ${props => props.theme.colors.secondary};
 `
 
 export const Flag = styled.div`
   svg {
+    margin-top: 5px;
+    margin-bottom: -5px;
     width: 80px;
     height: 70px;
   }
@@ -44,7 +56,10 @@ export const Flag = styled.div`
   height: 100px;
 
   position: absolute;
-  top: 0px;
+  top: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
 
   justify-content: center;
 

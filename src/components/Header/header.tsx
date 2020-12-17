@@ -8,17 +8,15 @@ const Header: React.FC = ({ children }) => {
   return (
     <Content>
       <Bar>
-        <nav>
-          <Link href="/casa" passHref>
-            <TextHeader>A Casa</TextHeader>
-          </Link>{' '}
-          <Link href="/historia" passHref>
-            <TextHeader>História</TextHeader>
-          </Link>{' '}
-          <Link href="/eventos" passHref>
-            <TextHeader>Eventos</TextHeader>
-          </Link>{' '}
-        </nav>
+        <Link href="/casa" passHref>
+          <TextHeader>A Casa</TextHeader>
+        </Link>{' '}
+        <Link href="/historia" passHref>
+          <TextHeader>História</TextHeader>
+        </Link>{' '}
+        <Link href="/eventos" passHref>
+          <TextHeader>Eventos</TextHeader>
+        </Link>{' '}
       </Bar>
       <Flag>
         <Shield />
