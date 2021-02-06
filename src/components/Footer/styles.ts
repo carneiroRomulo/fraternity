@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.footer`
   width: 100%;
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
