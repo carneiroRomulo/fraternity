@@ -2,12 +2,18 @@ import React from 'react'
 import Link from 'next/link'
 
 import Shield from '../../assets/shield.svg'
-import { Content, Bar, Flag, TextHeader, TextHome } from './styles'
+import {
+  Container,
+  ContentLeft,
+  ContentRight,
+  Flag,
+  TextHeader
+} from './styles'
 
 const Header: React.FC = ({ children }) => {
   return (
-    <Content>
-      <Bar>
+    <Container>
+      <ContentLeft>
         <Link href="/casa" passHref>
           <TextHeader>A Casa</TextHeader>
         </Link>{' '}
@@ -17,14 +23,14 @@ const Header: React.FC = ({ children }) => {
         <Link href="/eventos" passHref>
           <TextHeader>Eventos</TextHeader>
         </Link>{' '}
-      </Bar>
-      <Flag>
-        <Shield />
-        <Link href="/" passHref>
-          <TextHome>Home</TextHome>
-        </Link>{' '}
-      </Flag>
-      <Bar>
+      </ContentLeft>
+      <Link href="/" passHref>
+        <Flag>
+          <Shield />
+          <a>Home</a>
+        </Flag>
+      </Link>{' '}
+      <ContentRight>
         <Link href="/moradores" passHref>
           <TextHeader>Moradores</TextHeader>
         </Link>{' '}
@@ -34,9 +40,9 @@ const Header: React.FC = ({ children }) => {
         <Link href="/contato" passHref>
           <TextHeader>Contato</TextHeader>
         </Link>{' '}
-      </Bar>
-      {children}
-    </Content>
+        {children}
+      </ContentRight>
+    </Container>
   )
 }
 
