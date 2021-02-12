@@ -14,13 +14,13 @@ const Header: React.FC = ({ children }) => {
   return (
     <Container>
       <ContentLeft>
-        <Link href="/casa" passHref>
+        <Link href="/house" passHref>
           <TextHeader>A Casa</TextHeader>
         </Link>{' '}
-        <Link href="/historia" passHref>
+        <Link href="/history" passHref>
           <TextHeader>História</TextHeader>
         </Link>{' '}
-        <Link href="/eventos" passHref>
+        <Link href="/events" passHref>
           <TextHeader>Eventos</TextHeader>
         </Link>{' '}
       </ContentLeft>
@@ -31,13 +31,13 @@ const Header: React.FC = ({ children }) => {
         </Flag>
       </Link>{' '}
       <ContentRight>
-        <Link href="/moradores" passHref>
+        <Link href="/residents" passHref>
           <TextHeader>Moradores</TextHeader>
         </Link>{' '}
-        <Link href="/ex-alunos" passHref>
+        <Link href="/ex-students" passHref>
           <TextHeader>Ex-Alunos</TextHeader>
         </Link>{' '}
-        <Link href="/contato" passHref>
+        <Link href="/contact" passHref>
           <TextHeader>Contato</TextHeader>
         </Link>{' '}
         {children}

@@ -41,7 +41,7 @@ export const ContentRight = styled.div`
 `
 
 export const TextHeader = styled.a`
-  font: 700 1.25em Poppins, sans-serif;
+  font: 700 20px Poppins, sans-serif;
   text-decoration: none;
 
   color: ${props => props.theme.colors.light_text};
@@ -87,10 +87,8 @@ export const Flag = styled.a`
   box-shadow: 0px 4px 10px #262626;
   border-radius: 0 0 15px 15px;
 
-  :hover a {
-    color: ${props => props.theme.colors.light_text};
-  }
   :hover {
+    color: ${props => props.theme.colors.light_text};
     background-color: ${props => props.theme.colors.secondary};
   }
 `
