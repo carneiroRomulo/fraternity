@@ -12,7 +12,7 @@ export const Container = styled.footer`
 
   text-align: center;
 
-  font: 700 1.25em Poppins, sans-serif;
+  font: 700 16px Poppins, sans-serif;
 
   color: ${props => props.theme.colors.light_text};
   background-color: ${props => props.theme.colors.primary};
